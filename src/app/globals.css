@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 @layer components {
+
+  /* @components/menu/ */
   .menu-icon {
     @apply relative flex justify-center items-center h-12 w-12 my-2 mx-auto cursor-pointer
            bg-gray-800 text-green-500 rounded-3xl
@@ -16,5 +18,9 @@
            text-white bg-gray-900 text-xs font-bold
            transition-all duration-100 scale-0 origin-left;
   }
+
+
+  /* @components/common/Box */
+  
   
 }
