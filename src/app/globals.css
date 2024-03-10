@@ -1,7 +1,14 @@
+/* Injects base styles and plugin base styles */
 @tailwind base;
+/* Injects component classes and plugin component styles */
 @tailwind components;
+/* Injects utility classes and plugin utility styles */
 @tailwind utilities;
 
+/* Your base styles here */
+@layer base {}
+
+/* Your component styles here */
 @layer components {
 
   /* @components/menu/ */
@@ -18,9 +25,17 @@
            text-white bg-gray-900 text-xs font-bold
            transition-all duration-100 scale-0 origin-left;
   }
-
-
-  /* @components/common/Box */
-  
-  
+ 
 }
+
+/* Your utility styles here */
+@layer utilities {}
+
+/* Component libraries
+------------------------------------------------------
+
+  - https://ui.shadcn.com/
+  - https://tailwindui.com/
+  - https://headlessui.com/
+
+*/
