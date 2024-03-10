@@ -5,7 +5,7 @@ const Page = () => {
   return (
     <main className="flex flex-col p-5">
       <h1 className="border-t-2 py-2 mt-4 text-center text-lg text-green-400">Hello World</h1>
-      <div className="w-full h-10 bg-violet-200 border-t-2 py-2iolet-600 rounded-md border-t-2 py-2 my-4 p-2">
+      <div className="w-full h-10 bg-violet-200 border-t-2 py-2iolet-600 rounded-md py-2 my-4 p-2">
         <p className="text-center font-mono font-extrabold">A div</p>
       </div>
       
