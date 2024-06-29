@@ -1,10 +1,10 @@
 'use client'
 
 import { shoes, statistics } from '@/constants/main'
-import Button from '../ui/Button'
 import Image from 'next/image'
-import ShoeCard from '../ui/ShoeCard'
 import { useState } from 'react'
+import Button from '../ui/Button'
+import ShoeCard from '../ui/ShoeCard'
 
 const Hero = () => {
 
